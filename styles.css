@@ -1,7 +1,7 @@
 /* styles.css */
 body {
   font-family: Arial, sans-serif;
-  background-color: #ffffff;
+  background-color: #3988ff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,6 +9,14 @@ body {
   margin: 0;
 }
 
+#loginEmail
+{
+  width: 278px;
+}
+#loginPassword
+{
+  width: 278px;
+}
 .container {
   background-color: rgb(255, 255, 255);
   padding: 20px;
