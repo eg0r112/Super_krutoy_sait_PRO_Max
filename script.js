@@ -15,8 +15,8 @@ document.getElementById('loginForm').addEventListener('submit', function (event)
     const password = document.getElementById('loginPassword').value;
 
     // Отправка данных на сервер (псевдокод)
-    console.log('Вход:', { email, password });
-    alert('Данные отправлены для входа!');
+    //console.log('Вход:', { email, password });
+    //alert('Данные отправлены для входа!');
 });
 
 // Обработка формы регистрации
@@ -25,10 +25,11 @@ document.getElementById('registerForm').addEventListener('submit', function (eve
     const name = document.getElementById('registerName').value;
     const email = document.getElementById('registerEmail').value;
     const password = document.getElementById('registerPassword').value;
+    const passwordTwo = document.getElementById('registerPasswordTwo').value;
 
     // Отправка данных на сервер (псевдокод)
-    console.log('Регистрация:', { name, email, password });
-    alert('Данные отправлены для регистрации!');
+    //console.log('Регистрация:', { name, email, password });
+    //alert('Данные отправлены для регистрации!');
 });
 // Получаем элементы формы
 const loginForm = document.getElementById('loginForm');
@@ -75,10 +76,17 @@ registerForm.addEventListener('submit', (event) => {
     const name = document.getElementById('registerName').value;
     const email = document.getElementById('registerEmail').value;
     const password = document.getElementById('registerPassword').value;
-
-    if (!name || !email || !password) {
+    const passwordTwo = document.getElementById('registerPasswordTwo').value;
+    
+    if (!name || !email || !password || !passwordTwo) {
         alert('Пожалуйста, заполните все поля.');
         return;
+    }
+    else {
+        if(password != passwordTwo) {
+            alert("Пароли не совпадают!");
+            return;
+        }
     }
 
     // Простая проверка на корректность данных (замените на реальную логику)
