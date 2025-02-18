@@ -9,14 +9,22 @@ body {
   margin: 0;
 }
 
-#loginEmail
-{
+#loginEmail {
   width: 278px;
 }
-#loginPassword
-{
+#loginPassword {
   width: 278px;
 }
+#registerName {
+  width: 278px;
+}
+#registerEmail {
+  width: 278px;
+}
+#registerPassword {
+  width: 278px;
+}
+
 .container {
   background-color: rgb(255, 255, 255);
   padding: 20px;
