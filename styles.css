@@ -9,22 +9,7 @@ body {
   margin: 0;
 }
 
-#loginEmail {
-  width: 278px;
-}
-#loginPassword {
-  width: 278px;
-}
-#registerName {
-  width: 278px;
-}
-#registerEmail {
-  width: 278px;
-}
-#registerPassword {
-  width: 278px;
-}
-#registerPasswordTwo {
+.form.active .WWod {
   width: 278px;
 }
 
