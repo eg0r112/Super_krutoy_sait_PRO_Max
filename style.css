@@ -26,3 +26,72 @@ body {
     background-color: blueviolet;
     position: relative;
 }
+
+#BP {
+    Width: 34px;
+    Height: 34px;
+    Border: 0.97px solid #3D9AFF;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 17px;
+}
+
+#KtoTy {
+    width: 139px;
+    height: 30px;
+    position: relative;
+    bottom: 30px;
+    left: 45px;
+}
+#KtoTyTXT {
+    font-size: 12px;
+    position: relative;
+}
+#KtoTyTXT1 {
+    font-size: 12px;
+    position: relative;
+}
+#Di {
+    width: 183px;
+    height: 35px;
+    position: relative;
+    padding: 15px 20px 10px 20px;
+}
+#Dii {
+    position: relative;
+    width: 117px;
+    height: 35px;
+    bottom: 60px;
+    left: 218px;
+    padding: 15px 20px 10px 20px;
+}
+#NG {
+    font-size: 14px;
+    color: #8B8B8B;
+}
+#BV {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #8B8B8B;
+    border-radius: 17px;
+}
+.Vn {
+    position: relative;
+    left: 5px;
+}
+#menu {
+    position: relative;
+    border: 1px solid #8B8B8B;
+    border-radius: 17px;
+    height: 34px;
+    width: 34px;
+    left: 75px;
+    bottom: 31px;
+    background-color: rgba(0, 0, 0, 0);
+}
+#Menuu {
+    position: relative;
+    right: 7px;
+    bottom: 3px;
+}
