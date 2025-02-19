@@ -89,6 +89,7 @@ registerForm.addEventListener('submit', (event) => {
         }
     }
 
+    
     // Простая проверка на корректность данных (замените на реальную логику)
     alert(`Вы успешно зарегистрировались как ${name}!`);
     loginForm.classList.add('active');
