@@ -1,14 +1,20 @@
+
 /* #Shapka {
-    width: 375px;
+    width: 335px;
     height: 60px;
     background-color: aquamarine;
     position: relative;
 } */
 #Shapka {
     width: 100%;
-    height: 60px;
+    /* height: 35px; */
+    /* height: 90px; */
     background-color: aquamarine;
     position: relative;
+    padding: 15px 20px 10px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 body {
     font-family: Arial, sans-serif;
@@ -22,9 +28,11 @@ body {
 
 #Osn {
     height: 1395px;
+    /* width: 335px; */
     width: 100%;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     position: relative;
+    padding: 20px 20px 30px 20px;
 }
 
 #BP {
@@ -36,8 +44,6 @@ body {
 }
 
 #KtoTy {
-    width: 139px;
-    height: 30px;
     position: relative;
     bottom: 30px;
     left: 45px;
@@ -49,22 +55,30 @@ body {
 #KtoTyTXT1 {
     font-size: 12px;
     position: relative;
+    color: #8B8B8B;
+}
+#Sp {
+    color: #8B8B8B;
 }
 #Di {
     width: 183px;
     height: 35px;
     position: relative;
-    padding: 15px 20px 10px 20px;
 }
 #Dii {
     position: relative;
     width: 117px;
-    height: 35px;
-    bottom: 60px;
-    left: 218px;
-    padding: 15px 20px 10px 20px;
+    height: 34px;
+    /* left: 225px;
+    bottom: 38px; */
 }
 #NG {
+    /* right: 0px;
+    position: relative; */
+    font-size: 14px;
+    color: #8B8B8B;
+}
+#NG1 {
     font-size: 14px;
     color: #8B8B8B;
 }
@@ -75,6 +89,9 @@ body {
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #8B8B8B;
     border-radius: 17px;
+    width: 78px;
+    height: 34px;
+    position: relative;
 }
 .Vn {
     position: relative;
@@ -86,12 +103,38 @@ body {
     border-radius: 17px;
     height: 34px;
     width: 34px;
-    left: 75px;
-    bottom: 31px;
+    left: 84px;
+    bottom: 34px;
     background-color: rgba(0, 0, 0, 0);
 }
 #Menuu {
     position: relative;
-    right: 7px;
-    bottom: 3px;
+    /* right: 7px; */
+    height: 34px;
+    width: 34px;
+    bottom: 1px;
+}
+#FS1 {
+    display: none;
+    position: relative;
+}
+#FS {
+    display: block;
+    position: relative;
+}
+#BVv {
+    display: none;
+    position: relative;
+    width: 76px;
+    height: 35px;
+    bottom: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #8B8B8B;
+    border-radius: 17px;
+    justify-content: center;
+    align-items: center;
+}
+#imgBP {
+    position: relative;
+    top: 3px;
 }
