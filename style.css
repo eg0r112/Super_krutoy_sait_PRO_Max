@@ -9,7 +9,7 @@
     width: 100%;
     /* height: 35px; */
     /* height: 90px; */
-    background-color: aquamarine;
+    background-color: #ffffff;
     position: relative;
     padding: 15px 20px 10px 20px;
     display: flex;
@@ -24,7 +24,63 @@ body {
     flex-direction: column;
     margin: 0;
     width: 100%;
-  }
+}
+#Tab2 {
+    width: 100%;
+    height: 235px;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.m2 {
+    bottom: 2.5px;
+    position: relative;
+    left: 20px;
+}
+
+.m1 {
+    position: relative;
+    bottom: 2.5px;
+}
+
+#P1 {
+    width: 100%;
+    height: 75px;
+    border-radius: 0px 25px 25px 25px;
+    border: 1px solid #DDE2E4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 14px;
+    align-items: center;
+}
+
+#P2 {
+    width: 100%;
+    height: 75px;
+    border-radius: 0px 25px 25px 25px;
+    border: 1px solid #DDE2E4;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 14px;
+    align-items: center;
+}
+
+#P3 {
+    width: 100%;
+    height: 75px;
+    border-radius: 0px 25px 25px 25px;
+    border: 1px solid #DDE2E4;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 14px;
+    align-items: center;
+}
 
 #Osn {
     height: 1395px;
@@ -35,6 +91,39 @@ body {
     padding: 20px 20px 30px 20px;
 }
 
+#Otst1 {
+    height: 20px;
+    width: 100%;
+}
+#Otst2 {
+    height: 20px;
+    width: 100%;
+}
+#Otst3 {
+    height: 20px;
+    width: 100%;
+}
+#Tab1 {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 0px 25px 25px 25px;
+    background-color: #1170DC;
+    background: linear-gradient(to right,#ffffff, 10%,#1170DC);
+}
+#Txt {
+    position: relative;
+    font-size: 16px;
+    color: #ffffff;
+    left: 20px;
+    top: 39.5px;
+}
+#Osn1 {
+    width: 100%;
+    height: 340px;
+}
 #BP {
     Width: 34px;
     Height: 34px;
@@ -137,4 +226,177 @@ body {
 #imgBP {
     position: relative;
     top: 3px;
+}
+#Osn2 {
+    width: 100%;
+    height: 439px;
+}
+#Tabl1 {
+    width: 100%;
+    height: 153px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 0px 25px 25px 25px;
+    background: linear-gradient(to right bottom,#FFD600 ,#FF6534);
+}
+#TT2 {
+    position: relative;
+    width: 273px;
+    height: 34px;
+    /* top: 99px; */
+    left: 20px;
+    bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#t {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+#Poz1 {
+    position: relative;
+    width: 126px;
+    height: 34px;
+    border: 1px solid white;
+    border-radius: 17px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#Te1 {
+    position: relative;
+    font-size: 10px;
+    color: #ffffff;
+    left: 10px;
+    bottom: 1px;
+}
+#Kr {
+    background-color: #ffffff;
+    width: 33px;
+    height: 34px;
+    border-radius: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Cf1 {
+    position: relative;
+    color: #FE971C;
+    font-size: 12px;
+    left: 0.5px;
+}
+#TT1 {
+    position: relative;
+    width: 161px;
+    height: 69px;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#T2 {
+    font-size: 10px;
+    color: #ffffff;
+}
+#T1 {
+    font-size: 40px;
+    color: #ffffff;
+}
+
+#Poz2 {
+    position: relative;
+    width: 142px;
+    height: 34px;
+    border: 1px solid white;
+    border-radius: 17px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#Te2 {
+    position: relative;
+    font-size: 10px;
+    color: #ffffff;
+    left: 10px;
+    bottom: 1px;
+}
+#Kr1 {
+    background-color: #ffffff;
+    width: 33px;
+    height: 34px;
+    border-radius: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Cf2 {
+    position: relative;
+    color: #FE971C;
+    font-size: 12px;
+    left: 0.5px;
+}
+
+#Tabl2 {
+    width: 100%;
+    height: 281px;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#Pu1 {
+    width: 100%;
+    height: 138px;
+    border: 1px solid #DDE2E4;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#Tex1 {
+    position: relative;
+    font-size: 20px;
+    top: 20px;
+    left: 20px;
+}
+#Kn {
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+    width: 82px;
+    height: 59px;
+    background: linear-gradient(to right bottom,#FFD600 ,#FF6534);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#eh {
+    position: relative;
+    bottom: 2.5px;
+    right: 1px;
+    width: 42px;
+    height: 39px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#HZ1 {
+    font-size: 24px;
+    color: #ffffff;
+}
+#HZ2 {
+    position: relative;
+    font-size: 12px;
+    color: #ffffff;
+    left: 1px;
 }
