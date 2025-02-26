@@ -361,6 +361,11 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
+#t1 {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
 #Tex1 {
     position: relative;
     font-size: 20px;
@@ -399,4 +404,262 @@ body {
     font-size: 12px;
     color: #ffffff;
     left: 1px;
+}
+#Kn1 {
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+    width: 110px;
+    height: 59px;
+    background: linear-gradient(to right bottom,#FFD600 ,#FF6534);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+}
+#eh1 {
+    position: relative;
+    bottom: 2.5px;
+    right: 10px;
+    width: 50px;
+    height: 39px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#HZ11 {
+    font-size: 24px;
+    color: #ffffff;
+}
+#HZ21 {
+    position: relative;
+    font-size: 12px;
+    color: #ffffff;
+    left: 1px;
+}
+#HZ31 {
+    font-size: 10px;
+    width: 27px;
+    position: relative;
+    top: 8px;
+    color: #ffffff;
+    margin-left: 5px;
+}
+#img1 {
+    position: relative;
+    top: 5px;
+}
+#eg2 {
+    position: relative;
+    left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+
+#Pu12 {
+    margin-top: 5px;
+    width: 100%;
+    height: 138px;
+    border: 1px solid #DDE2E4;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#t12 {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+#Tex12 {
+    position: relative;
+    font-size: 20px;
+    top: 20px;
+    left: 20px;
+}
+#Kn2 {
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+    width: 82px;
+    height: 59px;
+    background: linear-gradient(to right bottom,#FFD600 ,#FF6534);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#eh2 {
+    position: relative;
+    bottom: 2.5px;
+    right: 1px;
+    width: 42px;
+    height: 39px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#HZ12 {
+    font-size: 24px;
+    color: #ffffff;
+}
+#HZ22 {
+    position: relative;
+    font-size: 12px;
+    color: #ffffff;
+    left: 1px;
+}
+#Kn12 {
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+    width: 110px;
+    height: 59px;
+    background: linear-gradient(to right bottom,#FFD600 ,#FF6534);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+}
+#eh12 {
+    position: relative;
+    bottom: 2.5px;
+    right: 10px;
+    width: 50px;
+    height: 39px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#HZ112 {
+    font-size: 24px;
+    color: #ffffff;
+}
+#HZ212 {
+    position: relative;
+    font-size: 12px;
+    color: #ffffff;
+    left: 1px;
+}
+#HZ312 {
+    font-size: 10px;
+    width: 27px;
+    position: relative;
+    top: 8px;
+    color: #ffffff;
+    margin-left: 5px;
+}
+#img12 {
+    transform: rotate(180deg);
+    position: relative;
+    bottom: 5px;
+}
+#eg22 {
+    position: relative;
+    left: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#Osn3 {
+    width: 100%;
+    height: 506px;
+}
+#Tablica1 {
+    width: 100%;
+    height: 100px;
+    border-radius: 0px 25px 25px 25px;
+    background: linear-gradient(to right bottom,#A57AFF ,#8205FF);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#Nazv {
+    position: relative;
+    top: 10px;
+    left: 20px;
+    color: #ffffff;
+    font-size: 18px;
+}
+#Obertka {
+    position: relative;
+    top: 24px;
+    left: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.Dost {
+    width: 36px;
+    height: 36px;
+}
+#Dost2 {
+    position: relative;
+    right: 5px;
+}
+#Dost3 {
+    position: relative;
+    right: 10px;
+}
+#Dost4 {
+    position: relative;
+    right: 15px;
+}
+#Dost5 {
+    position: relative;
+    right: 20px;
+}
+.M {
+    width: 100%;
+    height: 85.8px;
+    background-color: #ffffff;
+    border: 1px solid #DDE2E4;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#Tablica2 {
+    margin-top: 5px;
+    height: 369px;
+    width: 100%;
+}
+#M2 {
+    position: relative;
+    bottom: 15px;
+}
+#M3 {
+    position: relative;
+    bottom: 30px;
+}
+#M4 {
+    position: relative;
+    bottom: 45px;
+}
+#M5 {
+    position: relative;
+    bottom: 60px;
+}
+.Naz {
+    position: relative;
+    left: 20px;
+    font-size: 14px;
+}
+.Cr {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #8B8B8B;
+    right: 20px;
 }
