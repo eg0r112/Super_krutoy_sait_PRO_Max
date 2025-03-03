@@ -61,12 +61,12 @@ loginForm.addEventListener('submit', (event) => {
     }
 
     // Простая проверка на корректность данных (замените на реальную логику)
-    if (email === 'user@example.com' && password === 'password123') {
-        alert('Вы успешно вошли!');
-        window.location.href = 'dashboard.html'; // Переход на страницу после входа
-    } else {
-        alert('Неверный email или пароль.');
-    }
+    // if (email === 'user@example.com' && password === 'password123') {
+    //     alert('Вы успешно вошли!');
+    //     window.location.href = 'dashboard.html'; // Переход на страницу после входа
+    // } else {
+    //     alert('Неверный email или пароль.');
+    // }
 });
 
 // Обработка формы регистрации
@@ -87,6 +87,7 @@ registerForm.addEventListener('submit', (event) => {
             alert("Пароли не совпадают!");
             return;
         }
+        Reg();
     }
 
     
@@ -95,3 +96,68 @@ registerForm.addEventListener('submit', (event) => {
     loginForm.classList.add('active');
     registerForm.classList.remove('active'); // Возвращаемся к форме входа
 });
+let Scet = 1;
+var User1;
+var Email1;
+var password1;
+
+var User2;
+var Email2;
+var password2;
+
+var User3;
+var Email3;
+var password3;
+
+var UserAdm = Admin;
+
+
+function Vhod() {
+    var Email = document.querySelector("#loginEmail").value;    
+    var Password = document.querySelector("#loginPassword").value;
+    if(((Email==Email1)||(Email==Email2)||(Email==Email3)||(Email=="Admin@mail.ru"))||((Password==password1)||(Password==password2)||(Password==password3)||(Password=="Admin123")))
+    {
+        window.location.href = "Osnova.html";
+    }
+    else
+    {
+        alert("Пользователь не найден");
+        return;
+    }
+}
+
+function Reg() {
+    switch (Scet) {
+        case 1:
+          User1 = document.querySelector("#registerName").value;
+          Email1 = document.querySelector("#registerEmail").value;
+          password1 = document.querySelector("#registerPassword").value;
+          Scet++;
+          window.location.href = "Osnova.html";
+          break;
+        case 2:
+            User2 = document.querySelector("#registerName").value;
+            Email2 = document.querySelector("#registerEmail").value;
+            password2 = document.querySelector("#registerPassword").value;
+            Scet++;
+            window.location.href = "Osnova.html";
+          break;
+        case 3:
+            User3 = document.querySelector("#registerName").value;
+            Email3 = document.querySelector("#registerEmail").value;
+            password3 = document.querySelector("#registerPassword").value;
+            Scet++;
+            window.location.href = "Osnova.html";
+          break;
+        default:
+          alert("Ошибка! Превышен лимит пользователей!");
+          return;
+      }
+}
+
+
+
+
+
+
+

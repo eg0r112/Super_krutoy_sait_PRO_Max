@@ -52,6 +52,35 @@ document.querySelector("#BVv").addEventListener("click", function(){
     document.querySelector('#Hre4').href="https://vk.com/club228189756 ";
     }
 });
- document.querySelector("#DiiPC1").addEventListener("click", function(){
-    location.reload();
- });
+
+document.querySelector("#Cl1").addEventListener("click", function(){
+    if(B2 == 1)
+    {
+        B2=0;
+        document.querySelector("#Cl1").style.backgroundColor = "#3D9AFF";
+        document.querySelector("#Cl1").style.color = "#FFFFFF";
+        document.querySelector("#Cl1").style.border = "0px solid #8B8B8B";
+        document.querySelector("#Cl2").style.backgroundColor = "#ffffff";
+        document.querySelector("#Cl2").style.color = "#8B8B8B";
+        document.querySelector("#Cl2").style.border = "1px solid #8B8B8B";
+        document.querySelector('#Hre2').href="https://disk.yandex.ru/d/j6WrWz_1cZl0CA";
+        document.querySelector('#Hre3').href="https://vk.com/im/convo/2000000002?cmid=582&entrypoint=list_all ";
+        document.querySelector('#Hre4').href="https://vk.com/club228189756 ";
+    }
+});
+document.querySelector("#Cl2").addEventListener("click", function(){
+    if(B2 == 0)
+    {
+        B2=1;
+        document.querySelector("#Cl2").style.backgroundColor = "#3D9AFF";
+        document.querySelector("#Cl2").style.color = "#FFFFFF";
+        document.querySelector("#Cl2").style.border = "0px solid #8B8B8B";
+        document.querySelector("#Cl1").style.backgroundColor = "#ffffff";
+        document.querySelector("#Cl1").style.color = "#8B8B8B";
+        document.querySelector("#Cl1").style.border = "1px solid #8B8B8B";
+        document.querySelector('#Hre2').href="https://disk.yandex.ru/d/jY95skys7uYiFg ";
+        document.querySelector('#Hre3').href="https://vk.com/im/convo/2000000004?cmid=186&entrypoint=list_all ";
+        document.querySelector('#Hre4').href="https://vk.com/club228219108 ";
+    }
+});
+

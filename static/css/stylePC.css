@@ -59,8 +59,9 @@ body {
     width: 72px;
     height: 35px;
     border-radius: 17.5px;
-    border: 1px solid #8B8B8B;
-    color: #8B8B8B;
+    /* border: 1px solid #8B8B8B; */
+    color: #ffffff;
+    background-color: #3D9AFF;
     font-size: 14px;
 }
 #Cl2 {
@@ -122,6 +123,7 @@ body {
     justify-content: space-between;
 }
 #Tab1 {
+    position: relative;
     /* width: 413px; */
     width: 100%;
     height: 173px;
@@ -141,6 +143,7 @@ body {
 }
 #Tabl1 {
     /* width: 413px; */
+    position: relative;
     width: 100%;
     height: 173px;
     display: flex;
@@ -150,6 +153,7 @@ body {
     background: linear-gradient(to right bottom,#FFD600 ,#FF6534);
 }
 #Tablica1 {
+    position: relative;
     /* width: 413px; */
     width: 100%;
     height: 173px;
@@ -288,6 +292,7 @@ body {
 .Dost {
     width: 49px;
     height: 49px;
+    z-index: 2;
 }
 #Dost2 {
     position: relative;
@@ -608,6 +613,7 @@ body {
     width: 300px;
     position: relative;
     bottom: 10px;
+    z-index: 2;
 }
 #T2 {
     display: none;
@@ -627,6 +633,7 @@ body {
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
+    z-index: 2;
 }
 #Te2 {
     position: relative;
@@ -649,4 +656,147 @@ body {
     color: #FE971C;
     font-size: 12px;
     left: 0.5px;
+}
+#K1 {
+    width: 150px;
+    height: 120px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    border-radius: 0px 0px 25px 0px;
+}
+#K2 {
+    width: 130px;
+    height: 120px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    border-radius: 0px 0px 25px 0px;
+}
+#K3 {
+    width: 135px;
+    height: 120px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    border-radius: 0px 0px 25px 0px;
+}
+#Kk1 {
+    background: linear-gradient(to right bottom,#ffffff00,#ffffff75);
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    bottom: 65px;
+    z-index: 2;
+}
+#Kk2 {
+    background: linear-gradient(to right bottom,#ffffff00,#ffffff75);
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    bottom: 15px;
+    z-index: 2;
+}
+#Kk3 {
+    background: linear-gradient(to bottom,#ffffff20,#ffffff75);
+    height: 100%;
+    width: 1px;
+    z-index: 2;
+    position: absolute;
+    right: 70px;
+}
+#Kk4 {
+    background: linear-gradient(to bottom,#ffffff20,#ffffff75);
+    height: 100%;
+    width: 1px;
+    z-index: 2;
+    position: absolute;
+    right: 20px;
+}
+#Kf1 {
+    background: linear-gradient(to right bottom,#ffffff00,#ffffff70);
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    bottom: 65px;
+    z-index: 0;
+}
+#Kf2 {
+    background: linear-gradient(to right bottom,#ffffff00,#ffffff70);
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    bottom: 15px;
+    z-index: 0;
+}
+#Kf3 {
+    background: linear-gradient(to bottom,#ffffff30,#ffffff);
+    height: 100%;
+    width: 1px;
+    z-index: 2;
+    position: absolute;
+    right: 70px;
+    z-index: 0;
+}
+#Kf4 {
+    background: linear-gradient(to bottom,#ffffff30,#ffffff);
+    height: 100%;
+    width: 1px;
+    z-index: 2;
+    position: absolute;
+    right: 20px;
+    z-index: 0;
+}
+
+#Ky1 {
+    background: linear-gradient(to right bottom,#ffffff00,#ffffff70);
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    bottom: 65px;
+    z-index: 0;
+}
+#Ky2 {
+    background: linear-gradient(to right bottom,#ffffff00,#ffffff70);
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    bottom: 15px;
+    z-index: 0;
+}
+#Ky3 {
+    background: linear-gradient(to bottom,#ffffff30,#ffffff);
+    height: 100%;
+    width: 1px;
+    z-index: 2;
+    position: absolute;
+    right: 70px;
+    z-index: 0;
+}
+#Ky4 {
+    background: linear-gradient(to bottom,#ffffff30,#ffffff);
+    height: 100%;
+    width: 1px;
+    z-index: 2;
+    position: absolute;
+    right: 20px;
+    z-index: 0;
+}
+#Kar1 {
+    display: none;
+}
+#K1T {
+    display: none;
+}
+#K3T {
+    display: none;
+}
+#Otst1 {
+    display: none;
+}
+#Otst2 {
+    display: none;
+}
+#Otst3 {
+    display: none;
 }
