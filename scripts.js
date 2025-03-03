@@ -52,3 +52,6 @@ document.querySelector("#BVv").addEventListener("click", function(){
     document.querySelector('#Hre4').href="https://vk.com/club228189756 ";
     }
 });
+ document.querySelector("#DiiPC1").addEventListener("click", function(){
+    location.reload();
+ });
