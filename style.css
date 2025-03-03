@@ -114,6 +114,7 @@ body {
     background-color: #1170DC;
     background: linear-gradient(to right,#3D9AFF, 10%,#1170DC);
 }
+
 #Txt {
     position: relative;
     font-size: 16px;
@@ -131,6 +132,12 @@ body {
     Border: 0.97px solid #3D9AFF;
     background-color: rgba(0, 0, 0, 0);
     border-radius: 17px;
+}
+#DiiPC{
+    display: none;
+}
+#DiiPC1{
+    display: none;
 }
 
 #KtoTy {
@@ -591,6 +598,9 @@ body {
     left: 20px;
     color: #ffffff;
     font-size: 18px;
+}
+#Nz {
+    display: none;
 }
 #Obertka {
     position: relative;

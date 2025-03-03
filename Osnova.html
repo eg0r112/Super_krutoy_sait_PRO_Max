@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="rest.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="(max-width: 1023px) and (max-height: 599px)" href="style.css">
+    <link rel="stylesheet" media="(min-width: 1024px) and (min-height: 600px)" href="stylePC.css">
 </head>
 <body>
     <!-- шапка сайта -->
@@ -18,6 +19,12 @@
                 <div id="KtoTyTXT1">ПАЗЛ/КОД</div>
             </a>
         </div>
+        <div id="DiiPC">
+            <button id="Cl1">Кб3</button>
+            <img id="Img3" src="Images/strelki.png">
+            <button id="Cl2">Кф7</button>
+        </div>
+        <button id="DiiPC1">Выйти</button>
         <div id="Dii">
             <button id="BV"><a class="Vn" id="NG">Кб3</a><img class="Vn" id="FS"src="Images/downStr.png"><img class="Vn" id="FS1"src="Images/up.png"></button>
             <button id="menu"><img id="Menuu"src="Images/Menu.png"></button>
@@ -39,8 +46,10 @@
             <!-- маленькие виджеты -->
             <div id="Tab2">
                 <a id="Hre2" href="https://disk.yandex.ru/d/j6WrWz_1cZl0CA"><div id="P1"><div id="txt1" class="m2">Записи занятий</div><img src="Images/block1.png" class="m1"></div></a>
+                <div id="Hh">
                 <a id="Hre3" href="https://vk.com/im/convo/2000000002?cmid=582&entrypoint=list_all"><div id="P2"><div id="txt2" class="m2">Чат группы</div><img src="Images/block2.png" class="m1"></div></a>
                 <a id="Hre4" href="https://vk.com/club228189756"><div id="P3"><div id="txt3" class="m2">Материалы и дз</div><img src="Images/block3.png" class="m1"></div></a>
+                </div>
             </div>
         </div>
         <!-- отступ -->
@@ -121,6 +130,7 @@
             <div id="Tablica1">
                 <div id="Hzz">
                 <div id="Nazv">Достижения</div>
+                <div id="Nz">Последние достижения</div>
                     <div id="Obertka">
                         <img class="Dost" id="Dost1" src="Images/circle.png">
                         <img class="Dost" id="Dost2" src="Images/circle.png">
