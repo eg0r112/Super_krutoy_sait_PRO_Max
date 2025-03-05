@@ -109,7 +109,6 @@ var User3;
 var Email3;
 var password3;
 
-var UserAdm = Admin;
 
 
 function Vhod() {
